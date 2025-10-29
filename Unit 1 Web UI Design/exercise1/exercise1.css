@@ -4,48 +4,68 @@ body {
     color: #000000;
 	
 	
-	background-color: grey;
+	background-color: lightblue;
 }
 
 header {
     background-color: #949494;
     text-align: left;
 	
+	
+	background-color: blue;
+	width: 100vw;
+	align-content: center;
 
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 22px;
     color: #444444;
 	
 	
 	
 	font-weight: bold;
 	text-align: center;
+	color: white;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #f4f4f4;
+    //background-color: #f4f4f4;
 	
 	display: flex;
 	justify-content: space-around;
-
+	align-items:center;
+	text-decoration: none;
+	height: 5vh;
 }
 
 nav ul li {
     display: inline;
-}
-
-section {
-    margin-top: 20px;
-	
 	
 	padding: 10px;
 	background-color: white;
+	font-weight: bold;
+	border-radius: 10px;
+
+}
+
+main{
+	margin-top: 10vh;
+	display: flex;
+	height: 40vh;
+}
+
+section {
+    
+	margin: 10px 20px 10px 20px;
+	padding: 50px;
+	background-color: white;
 	border-radius: 25px;
-	height: 20vh;
+	align-content: center;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 section h2 {
@@ -55,14 +75,15 @@ section h2 {
 	
 	text-align: center;
 	font-weight: bold;
+	color: black;
 }
 
 section p {
-    font-size: 18px;
+    font-size: 14px;
     //color: #d2d2d2;
 	
 	
-	text-align: center;
+	text-align: left;
 	color: black;
 }
 
@@ -71,4 +92,14 @@ footer {
     text-align: left;
 	
 	
+	color: white;
+	background-color: blue;
+	width: 100vw;
+	align-content: center;
+	justify-items: center;
+	font-weight: bold;
+	
+	position: fixed;
+	bottom: 0;
 }
+
